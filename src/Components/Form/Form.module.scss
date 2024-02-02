@@ -1,0 +1,26 @@
+@import '../../style/template';
+@import '../../style/vars';
+
+.ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style-type: none;
+    margin: 3% 0 3% 0;
+}
+
+li:nth-child(odd) {
+    color: rgb(99, 99, 76);
+}
+
+li:nth-child(even) {
+    color: rgb(209, 146, 64);
+}
